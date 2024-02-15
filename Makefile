@@ -22,7 +22,7 @@ seed:
 
 # Run tests
 test:
-	php artisan test
+	docker-compose exec app php artisan test
 
 #run frontend
 frontend:

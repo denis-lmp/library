@@ -5,3 +5,8 @@
 - Run `make install`
   - It will install composer dependencies, run migration, seeders, run tests
 - Visit api: `http://localhost/swagger`
+
+- Main files are: 
+  - `app/Http/Controllers/BookController.php`
+  - `app/Repositories/EloquentBookRepository.php`
+  - `tests/Unit/BookControllerTest.php`
